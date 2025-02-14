@@ -1,0 +1,56 @@
+/* Container */
+.container {
+  padding-top: 20px;
+}
+
+/* Dropdown Button */
+#dropdown-category {
+  background-color: #543A14;
+  color: white;
+  border: none;
+  font-size: 18px;
+}
+
+/* Cards Section */
+.card-grid {
+  margin-top: 20px;
+}
+
+
+
+.card-box {
+  background-color: #FFF0DC;
+  border: 1px solid #F0BB78;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-box:hover {
+  transform: scale(1.05);
+}
+
+.card-box .card-title {
+  color: #131010;
+  font-weight: bold;
+}
+
+.card-box .card-text {
+  color: #543A14;
+}
+
+/* Button */
+button {
+  background-color: #F0BB78;
+  border-color: #543A14;
+  color: #131010;
+}
+
+button:hover {
+  background-color: #543A14;
+  color: #FFF0DC;
+}
+
+/* Card Images */
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
