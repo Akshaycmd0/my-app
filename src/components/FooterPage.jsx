@@ -6,21 +6,21 @@ import {Link} from 'react-router-dom';
     <footer >
       <div className="footerContainer">
         <div className="socialIcons">
-          <a href="#"><i className="fa-brands fa-facebook"></i></a>
-          <a href="#"><i className="fa-brands fa-instagram"></i></a>
-          <a href="#"><i className="fa-brands fa-twitter"></i></a>
-          <a href="#"><i className="fa-brands fa-google-plus"></i></a>
-          <a href="#"><i className="fa-brands fa-youtube"></i></a>
+          <i className="fa-brands fa-facebook"></i>
+          <i className="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-twitter"></i>
+          <i className="fa-brands fa-google-plus"></i>
+          <i className="fa-brands fa-youtube"></i>
         </div>
         <div className="footerNav">
           <ul>
-            <li><a href="#"><Link to = "/">Home</Link></a></li>
-            <li><a href="#"><Link to = "/aboutus">About</Link></a></li>
-            <li><a href="#"><Link to = "/certificate">Certificate</Link></a></li>
-            <li><a href="#"><Link to = "/features">Features</Link></a></li>
-            <li><a href="#"><Link to = "/reviews">Reviews</Link></a></li>
-            <li><a href="#"><Link to = "/policy">Policy</Link></a></li>
-            <li><a href="#"><Link to = "/contactus">Contact</Link></a></li>
+            <li><Link to = "/">Home</Link></li>
+            <li><Link to = "/aboutus">About</Link></li>
+            <li><Link to = "/certificate">Certificate</Link></li>
+            <li><Link to = "/features">Features</Link></li>
+            <li><Link to = "/reviews">Reviews</Link></li>
+            <li><Link to = "/policy">Policy</Link></li>
+            <li><Link to = "/contactus">Contact</Link></li>
           </ul>
         </div>
       </div>
@@ -33,4 +33,4 @@ import {Link} from 'react-router-dom';
   );
 }
 
- export default Footer;
+ export default Footer

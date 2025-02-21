@@ -1,7 +1,5 @@
 import React from 'react'
 import { Dropdown, Button, Card, Row, Col } from 'react-bootstrap';
-import Navbar from '../components/NavBarPage';
-import Footer from '../components/FooterPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../App.css";
 
@@ -17,7 +15,6 @@ import { Link } from "react-router-dom";
 function App() {
   return (
     <div>
-      <Navbar />
       <div className="container">
         {/* Category Dropdown */}
         <Dropdown>
@@ -123,7 +120,6 @@ function App() {
           </Row>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
